@@ -1,4 +1,5 @@
-import 'package:api_intregration_with_rahul/screens/user_screen/user_screen.dart';
+import 'package:api_intregration_with_rahul/screens/user_list_screen/user_list_screen.dart';
+import 'package:api_intregration_with_rahul/screens/user_map_screen/user_map_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,12 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const UserScreen(),
+      home: Screens.userListScreen,
     );
   }
+}
+
+class Screens {
+  static Widget userMapScreen = const UserMapScreen();
+  static Widget userListScreen = const UserListScreen();
 }

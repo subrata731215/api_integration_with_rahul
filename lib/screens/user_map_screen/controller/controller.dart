@@ -1,4 +1,4 @@
-import 'package:api_intregration_with_rahul/model/album_model.dart';
+import 'package:api_intregration_with_rahul/model/user_map_model.dart';
 import 'package:api_intregration_with_rahul/services/api_service/api_services.dart';
 import 'package:get/get.dart';
 

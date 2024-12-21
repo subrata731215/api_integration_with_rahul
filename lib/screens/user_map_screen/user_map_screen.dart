@@ -1,9 +1,9 @@
-import 'package:api_intregration_with_rahul/screens/user_screen/controller/controller.dart';
+import 'package:api_intregration_with_rahul/screens/user_map_screen/controller/controller.dart';
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 
-class UserScreen extends StatelessWidget {
-  const UserScreen({super.key});
+class UserMapScreen extends StatelessWidget {
+  const UserMapScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class UserScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title:  Text('Users : ${controller.userModel.total}'),
+        title:  const Text('Users'),
         centerTitle: true,
       ),
       body: Obx(() {
